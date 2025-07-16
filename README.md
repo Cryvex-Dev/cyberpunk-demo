@@ -1,6 +1,6 @@
 # CyberVision - A Cyberpunk Themed Website Demo
 
-![CyberVision Demo Banner](https://via.placeholder.com/1200x600/0a0a0a/ff2a6d?text=CyberVision+Demo)
+![CyberVision Demo Banner](https://i.postimg.cc/NMtTXsHB/image.png)
 
 ## 🌟 Overview
 
@@ -15,6 +15,19 @@ CyberVision is a fully responsive, cyberpunk-themed website demo showcasing mode
 - 📱 **Fully Responsive**: Optimized for all device sizes
 - 🎬 **Loading Screen**: Custom animated loading sequence
 - 🎨 **CSS Effects**: Custom-built glitch and neon text effects
+- 💻 **Interactive Terminal**: Cyberpunk-themed terminal with fun commands
+
+## 🔥 Terminal Commands
+
+The demo includes an interactive terminal with the following commands:
+- `help` - Display available commands
+- `sudo @kill` - Refresh the site
+- `sudo smile` - Trigger an emoji animation
+- `sudo hack` - Activate a cyberpunk glitch effect (Warning: intense visuals!)
+- `clear` - Clear terminal screen
+- `about` - Show terminal information
+- `time` - Display current system time
+- `exit` - Exit terminal session
 
 ## 🛠️ Technologies Used
 
@@ -27,12 +40,7 @@ CyberVision is a fully responsive, cyberpunk-themed website demo showcasing mode
 
 ## 🚀 Live Demo
 
-Check out the live demo: [CyberVision Demo](https://cryvex-dev.github.io/cyberpunk-demo)
-
-## 🔍 Preview
-
-![Desktop Preview](https://via.placeholder.com/800x450/0a0a0a/ff2a6d?text=Desktop+Preview)
-![Mobile Preview](https://via.placeholder.com/400x800/0a0a0a/05d9e8?text=Mobile+Preview)
+Check out the live demo: [CyberVision Demo](https://cybervision-demo.cryvex.xyz)
 
 ## 📋 Project Structure
 
@@ -101,9 +109,27 @@ Contributions are welcome! Feel free to open issues or submit pull requests.
 4. Push to the branch: `git push origin feature/amazing-feature`
 5. Open a Pull Request
 
-## 📄 License
+## 📄 Free to Use - No License Restrictions
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is completely free to use, modify, and distribute without any restrictions. You can:
+
+- Remove all attributions and license information
+- Use it for personal or commercial projects
+- Modify it however you want
+- Distribute it under your own name
+
+The [LICENSE](LICENSE) file is included as a formality, but you are free to remove it. No attribution is required.
+
+## 🔒 Security Features
+
+This demo includes several security enhancements:
+
+- Content Security Policy (CSP) headers
+- XSS protection mechanisms
+- Input sanitization functions
+- Protection against clickjacking
+- Secure script loading practices
+- HTTPS support
 
 ## 📬 Contact
 
