@@ -1,6 +1,7 @@
 # CyberVision - A Cyberpunk Themed Website Demo
 
 ![CyberVision Demo Banner](https://i.postimg.cc/NMtTXsHB/image.png)
+
 ## 🌟 Overview
 
 CyberVision is a fully responsive, cyberpunk-themed website demo showcasing modern web development techniques and futuristic design aesthetics. This project demonstrates how to create an immersive, visually striking web experience using HTML, CSS, and JavaScript.
@@ -9,12 +10,14 @@ CyberVision is a fully responsive, cyberpunk-themed website demo showcasing mode
 
 - 🎭 **Cyberpunk Aesthetics**: Neon colors, glitch effects, and futuristic UI elements
 - 🔄 **Interactive Elements**: Animated components and responsive user interactions
-- 🌌 **3D Elements**: Three.js integration for 3D model visualization
+- 🌌 **3D Elements**: Three.js integration for 3D model visualization with subtle lighting effects
 - 💧 **Digital Rain Effect**: Matrix-inspired falling code animation
 - 📱 **Fully Responsive**: Optimized for all device sizes
 - 🎬 **Loading Screen**: Custom animated loading sequence
 - 🎨 **CSS Effects**: Custom-built glitch and neon text effects
 - 💻 **Interactive Terminal**: Cyberpunk-themed terminal with fun commands
+- 🔒 **Enhanced Security**: CSP headers and secure content delivery
+- 🛍️ **Product Showcase**: Interactive product display with subtle glow effects
 
 ## 🔥 Terminal Commands
 
@@ -35,6 +38,7 @@ The demo includes an interactive terminal with the following commands:
 - JavaScript (ES6+)
 - Three.js (for 3D elements)
 - GSAP (GreenSock Animation Platform)
+- ScrollTrigger for scroll-based animations
 - Modern web design techniques
 
 ## 🚀 Live Demo
@@ -49,12 +53,21 @@ cyberpunk-demo/
 ├── css/
 │   ├── style.css     # Main stylesheet
 │   ├── glitch.css    # Glitch effect styles
-│   └── neon.css      # Neon text effect styles
+│   ├── neon.css      # Neon text effect styles
+│   ├── legal.css     # Styles for legal pages
+│   └── product-styles.css # Product-specific styles
 ├── js/
 │   ├── main.js       # Main JavaScript functionality
 │   ├── animations.js # Animation-specific functions
 │   ├── 3d-models.js  # Three.js implementation
-│   └── digital-rain.js # Matrix-style rain effect
+│   ├── digital-rain.js # Matrix-style rain effect
+│   └── secure.js     # Security enhancement features
+├── pages/           # Legal and additional pages
+│   ├── privacy-policy.html
+│   ├── terms-of-service.html
+│   ├── cookie-policy.html
+│   ├── licensing.html
+│   └── sitemap.html
 └── img/             # Image assets
 ```
 
@@ -90,6 +103,7 @@ Feel free to customize this template for your own projects:
 - Modify 3D models in `js/3d-models.js`
 - Add or remove sections in `index.html`
 - Adjust animations in `js/animations.js`
+- Customize product displays in the Products section
 
 ## 📱 Responsive Design
 
@@ -97,6 +111,20 @@ This demo is fully responsive and optimized for:
 - Desktop computers
 - Tablets
 - Mobile phones (portrait and landscape)
+
+## 🔄 Recent Updates
+
+### Design Improvements
+- Refined product display with subtle glow effects instead of large gradient backgrounds
+- Enhanced 3D model container with proper sizing and proportions
+- Improved product details display for better readability
+- Added subtle animations for product transitions
+
+### Bug Fixes
+- Fixed Content Security Policy issues for proper script execution
+- Resolved ScrollTrigger initialization problems
+- Added error handling for animation libraries
+- Improved cross-browser compatibility
 
 ## 🤝 Contributing
 
@@ -126,7 +154,7 @@ This demo includes several security enhancements:
 - Content Security Policy (CSP) headers
 - XSS protection mechanisms
 - Input sanitization functions
-- Protection against clickjacking
+- X-Frame-Options protection against clickjacking
 - Secure script loading practices
 - HTTPS support
 
