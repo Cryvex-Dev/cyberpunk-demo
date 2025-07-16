@@ -1,5 +1,5 @@
 # CyberVision - A Cyberpunk Themed Website Demo
-## ⚠️⚠️⚠️ This is an early version. A full update is coming soon. ⚠️⚠️⚠️
+## ⚠️⚠️ This is an early version. A full update is coming soon. ⚠️⚠️
 
 ![CyberVision Demo Banner](https://i.postimg.cc/NMtTXsHB/image.png)
 
